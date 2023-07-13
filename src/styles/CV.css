@@ -1,0 +1,110 @@
+.CV {
+    height: 90vh;
+    width: 60%;
+    background-color: darkorchid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.CV > * {
+    font-size: 1.3rem;
+}
+
+.info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.personal {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 20%;
+}
+
+.personal > div {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.personal > div:last-child{
+    flex-direction: column;
+}
+
+.personal > div > div {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.CV p {
+    text-align: left;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.CV span {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    text-align: left;
+}
+
+.studies{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.exp{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+ul {
+    margin: 0;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+li > img {
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 10px;
+}
+
+li {
+    margin: 7px;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    font-size: 1rem;
+}
+
+
+#pfp {
+    max-width: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px; 
+}
